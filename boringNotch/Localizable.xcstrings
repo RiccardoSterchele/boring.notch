@@ -20092,6 +20092,9 @@
         }
       }
     },
+    "Show screenshot button in notch" : {
+
+    },
     "Show settings icon in notch" : {
       "localizations" : {
         "ar" : {

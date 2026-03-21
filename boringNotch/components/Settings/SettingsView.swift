@@ -1181,6 +1181,9 @@ struct Appearance: View {
         Form {
             Section {
                 Toggle("Always show tabs", isOn: $coordinator.alwaysShowTabs)
+                Defaults.Toggle(key: .showScreenshotButton) {
+                    Text("Show screenshot button in notch")
+                }
                 Defaults.Toggle(key: .settingsIconInNotch) {
                     Text("Show settings icon in notch")
                 }
