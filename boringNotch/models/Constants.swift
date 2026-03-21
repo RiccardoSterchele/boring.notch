@@ -183,6 +183,12 @@ extension Defaults.Keys {
     // MARK: Media Controller
     static let mediaController = Key<MediaControllerType>("mediaController", default: defaultMediaController)
     
+    // MARK: Clipboard
+    static let clipboardMaxItems = Key<Int>("clipboardMaxItems", default: 20)
+    static let clipboardSortNewestFirst = Key<Bool>("clipboardSortNewestFirst", default: true)
+    static let clipboardGroupByApp = Key<Bool>("clipboardGroupByApp", default: false)
+    static let clipboardPersistOnQuit = Key<Bool>("clipboardPersistOnQuit", default: false)
+    
     // MARK: Advanced Settings
     static let useCustomAccentColor = Key<Bool>("useCustomAccentColor", default: false)
     static let customAccentColorData = Key<Data?>("customAccentColorData", default: nil)
